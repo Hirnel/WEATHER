@@ -1,6 +1,6 @@
 @import '../utils/variables.scss';
-// si uso @import tengo que hacer la llamada así $primary-color;
-//pero si uso @use tengo que usar variables.$primary-color
+// si uso @import tengo que hacer la llamada así: $primary-color;
+//pero si uso @use tengo que usar:  variables.$primary-color
 // main{
 //     background-color: $primary-color;
 // }
@@ -8,8 +8,11 @@
 // body {
 //     background-color: $primary-color;
 // }
-@mixin shadow ($shadow-color) {
-    -webkit-box-shadow: 7px 7px 5px -1px $shadow-color;
-    -moz-box-shadow: 7px 7px 5px -1px $shadow-color;
-    box-shadow: 7px 7px 5px -1px $shadow-color;
+main {
+    padding-top: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
